@@ -18,6 +18,7 @@ public class AppView {
             input = 1;
         }
 
+        scanner.close();
         return input - 1;
     }
 }
